@@ -1,0 +1,21 @@
+
+.card{
+    text-align: center;
+    background-color: aquamarine;
+}
+.contenido{
+    padding: 50px;
+}
+.color{
+    display: flex;
+}
+.circulo{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 2rem;
+    margin: 15px;
+}
+.flex-container{
+    display: flex;
+}

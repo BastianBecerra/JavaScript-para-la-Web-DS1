@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/img/laptop.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Gamer AMD</h5>
+              <input id="cantidad" type="number" placeholder="cantidad">
+              <input id="color" type="text" placeholder="color">
+              <p>Precio: $ <span id="precio">400000</span></p>
+              <button class="btn btn-warning" onclick="
+              totalfinal.innerHTML = Number(cantidad.value) * 400000;
+              totalcantidad.innerHTML = cantidad.value;
+              colorfinal.style.backgroundColor = color.value;">CALCULAR TOTAL</button>
+            </div>
+        </div>
+        <div class="contenido">
+            <h1>Total: $
+                <span id="total-final">0</span>
+            </h1>
+            <h1>Cantidad: <span id="total-cantidad">0</span></h1>
+            <H1 class="color" id="color-final">Color: 
+                <div class="circulo"></div>
+            </H1>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
